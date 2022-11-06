@@ -1,0 +1,23 @@
+.Activity_container > h1{
+    text-align: center;
+    color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+}
+.cards{
+    margin-left: 1%;
+}
+.zoom{
+    transition: transform .2s;
+    /* border-color:blueviolet; */
+    border-width: 5px;
+    
+    
+}
+.zoom:hover {
+   
+    transform: scale(0.9); 
+    border-color:gold;
+    border-width: 5px;
+  }
+ 

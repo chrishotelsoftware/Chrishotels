@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Luxury life newsletter to receive our best  deals
+        Siddhartha International School, Near Financial District, Hyderabdad
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          You can contact us on +91 91278739893, 8192773979,.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Email Us</Button>
           </form>
         </div>
       </section>
@@ -30,11 +30,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Chris Hotels
+              Sidhartha Schools
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>Chris hotels © 2022</small>
+          <small class='website-rights'>Siddhartha Schools © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

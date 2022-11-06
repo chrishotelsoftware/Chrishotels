@@ -1,0 +1,25 @@
+.display{
+    margin-left: 60%;
+    margin-top: -20%;
+}
+.img{
+    width: 400px;
+    max-height:300px;
+    border-color: gold;
+    border-width: 5px;
+    border-style: inset;
+}
+.Awards_container >h1{
+    text-align: center;
+    color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+
+}
+.btno{
+    background-color:  #8a2be2;
+    border-color:blueviolet ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 1%;
+}

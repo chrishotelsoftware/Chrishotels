@@ -7,15 +7,16 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>LUXURY AWAITS</h1>
-      <p>What are you waiting for?</p>
+       <video src='/videos/video3.mp4' autoPlay loop muted />
+       <h1>ADMISSION OPEN FOR <br/>A.Y 2023-24</h1>
+      <h3 > ENROLL NOW </h3>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          REGISTER NOW
         </Button>
       </div>
     </div>

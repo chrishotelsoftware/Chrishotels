@@ -29,7 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <h1> CHRIS HOTELS</h1>
+            <h1>Siddhartha Schools</h1>
+            <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -42,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/Rooms'
+                to='/Admission'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Rooms
+                Admission
               </Link>
             </li>
             <li className='nav-item'>

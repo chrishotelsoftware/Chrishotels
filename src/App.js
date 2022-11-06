@@ -4,9 +4,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Rooms from './components/pages/Rooms';
 import Aboutus from './components/pages/Aboutus';
 import Contactus from './components/pages/Contactus';
+import Admission from './components/pages/Admission';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/Rooms' component={Rooms} />
+          <Route path='/Admission' component={Admission} />
           <Route path='/Aboutus' component={Aboutus} />
           <Route path='/Contactus' component={Contactus} />
         </Switch>

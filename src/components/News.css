@@ -1,0 +1,21 @@
+.News_container > h1{
+    text-align: center;
+    color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    
+}
+.zooma{
+    transition: transform .2s;
+    /* border-color:blueviolet; */
+    border-width: 5px;
+}
+.zooma:hover{
+    transform: scale(0.7); 
+    border-color: gold;
+    border-width: 5px;
+}
+.News_container{
+    height: 100vh;
+}
+
